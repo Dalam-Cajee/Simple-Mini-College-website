@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/learn.jpg) no-repeat;
+	font-family: sans-serif;
+	color: #fff;
+}
+.container {
+	width: 330px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-size: 15px;
+}
+.avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+h1 {
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 20px;
+}
+.container p {
+	color: #fff;
+}
+.container #login {
+	float: left;
+	padding: 10px;
+}
+.container  input, select {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.container input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#fff;
+	font-size: 13px;
+}
+.container  input[type="submit"] {
+	border: none;
+	height:40px;
+	background: Indigo;
+	color: #fff;
+	font-size: 16px;
+}
+.container  input[type="submit"]:hover {
+	cursor: pointer;
+	background: blue;
+}
+.container  a {
+	text-decoration: none;
+	color: Orange;
+}
+.container nav >a{
+	color: #fff;
+}
+.container a:hover {
+	color: red;
+}
+.container-input {
+	float: left;
+	width: 330px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 20px;
+	left: 20px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-size: 15px;
+}
+.container-input  input, select {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.container-input  input[type="submit"] {
+	border: none;
+	height:40px;
+	background: Indigo;
+	color: #fff;
+	font-size: 16px;
+}
+.container-input  input[type="submit"]:hover {
+	cursor: pointer;
+	background: blue;
+}
+.container-input  a {
+	text-decoration: none;
+	color: Orange;
+}
+.container-input a:hover {
+	color: red;
+}
+.container-input p {
+	color: #fff;
+}
+.container-attendance {
+	width: 60%;
+	height: 95%;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 20px;
+	right: 20px;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	font-size: 15px;
+}
+.container-attendance table{
+	position: absolute;
+}
+.container-attendance th, td {
+	padding: 7px 10px 10px 10px;
+}
+.container-attendance th {
+	font-size: 13px;
+	border-bottom: 2px solid #000;
+	border-top: 1px solid #999;
+	text-align: left;
+}
+.container-attendance #submit{
+	border: none;
+	background: Indigo;
+	color: #fff;
+	padding: 8px;
+	font-size: 16px;
+	transform: translate(130%, 20%);
+}
+.container-attendance #submit:hover {
+	cursor: pointer;
+	background: blue;
+}
